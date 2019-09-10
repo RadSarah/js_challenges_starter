@@ -6,9 +6,9 @@ let letter = "e"
 let letterCount = (word.match(new RegExp(letter, "g")) || []).length;
 
 
-if (letterCount>0) { console.log("Yeah, the letter " + letter + " exists " +  letterCount  +" times in my word")
+if (letterCount>0) { document.write("Yeah, the letter " + letter + " exists " +  letterCount  +" times in my word")
     
-} else { console.log("Nope, that letter doesn't exist in my word.")
+} else { document.write("Nope, that letter doesn't exist in my word.")
     
 }
 
